@@ -1,0 +1,614 @@
+{
+	"menu": [{
+		"small": [{
+			"name": "Edamame",
+			"desc": "Boiled soybeans with sea salt",
+			"price": 3
+		}, 
+		{
+			"name": "Shumai (6)",
+			"desc": "Steamed shrimp dumpling.",
+			"price": 4
+		}, 
+		{
+			"name": "Gyoza (6)",
+			"desc": "Pan fried pork dumpling.",
+			"price": 4
+		}, 
+		{
+			"name": "Dak Gan Gang",
+			"desc": "Batter-dipping chicken wings fried and then sauteed in a sweet spicy sauce.",
+			"price": 6
+		}, 
+		{
+			"name": "Pa Jun",
+			"desc": "Lightly fried Korean pancakes with crab stick and scallions, served with a soy sauce and vinaigrette dipping sauce",
+			"price": 5
+		}, 
+		{
+			"name": "Fried SPAM with Kimchee",
+			"desc": "Fried SPAM topped with kimchee, nori strips, and sesame seeds",
+			"price": 4
+		}, 
+		{
+			"name": "Hamachi Kama",
+			"desc": "Grilled yellowtail collar, sea salt, daikon radish, house ponzu",
+			"price": 8
+		}, 
+		{
+			"name": "Soft Shell Crab",
+			"desc": "Deep fried soft shell crab with ponzu sauce.",
+			"price": 6
+		}, 
+		{
+			"name": "Crab Ragoon (5)",
+			"desc": "Fried wonton stuffed with crab, celery, carrot and cream cheese.",
+			"price": 4
+		}, 
+		{
+			"name": "Kimchee Quesadilla",
+			"desc": "Melted cheese with kimchee and cilantro.",
+			"price": 5
+		}]
+	}, {
+		"beverage": [
+		{
+			"name": "Coke",
+			"desc": "",
+			"price": 1.25
+		}, 
+		{
+			"name": "Diet Coke",
+			"desc": "",
+			"price": 1.25
+		},
+		{
+			"name": "Sprite",
+			"desc": "",
+			"price": 1.25
+		}, 
+		{
+			"name": "Orange",
+			"desc": "",
+			"price": 1.25
+		}]
+
+	}, {
+		"ceviche": [{
+			"name": "Seafood Ceviche",
+			"desc": "Octopus, squid, shrimp, avocado, citrus, cilantro, jalapeno, red onion",
+			"price": 8
+		}, 
+		{
+			"name": "Sashimi Ceviche",
+			"desc": "Tuna, salmon, Yellow Tail, spicy mayo wrapped with avocado and topped with micro greens, chives, ponzu sauce",
+			"price": 9
+		}]
+
+	}, {
+		"soupSalad": [
+		{"name":"Miso Soup",
+		"desc":"Soy bean broth, tofu, scallion and seaweed.",
+		"price":2},
+		
+		{"name":"Spicy Miso Soup",
+		"desc":"Soy bean broth, tofu, scallion, seaweed, jalapeno and sriracha.",
+		"price":2},
+
+		{"name":"House Salad",
+		"desc":"Mixed greens, carrot, radish, ginger dressing",
+		"price":4},
+
+		{"name":"Salmon Skin",
+		"desc":"Mixed greens, carrot, radish, light ponzu",
+		"price":5},
+
+		{"name":"Wakama Salad",
+		"desc":"Cucumber, seaweed, rice vinaigrette",
+		"price":5}
+		]
+
+	}, {
+		"korean": [{
+				"name": "Budae-jjigae (Army Base Stew) for 1 served with rice (spicy)",
+				"desc": "kimchi, sausages, tofu, pork belly, mushrooms, onions,green onions,vegetables,glass noodles,ramen noodles,spicy",
+				"price": "10+"
+			},
+
+			{
+				"name": "Bi Bim Bap",
+				"desc": "Rice topped with beef, fresh vegetables, green leaf lettuce, fried egg and a spicy red pepper paste sauce, served with miso soup.",
+				"price": 8
+			},
+
+			{
+				"name": "Yook Gae Jang",
+				"desc": "Spicy beef broth with beef, bean sprouts, scallions, and clear vermicelli noodles.",
+				"price": 8
+			},
+
+			{
+				"name": "Kalbi",
+				"desc": "Grilled beef short ribs marinated in a sweet soy sauce, served with scallion and green leaf lettuce, served with rice and miso soup",
+				"price": 10
+			},
+
+			{
+				"name": "BBQ Pork Lettuce Wraps",
+				"desc": "Spicy bbq pork wraps in iceberg lettuce and topped with scallions and sesame seeds, served with rice and miso soup.",
+				"price": 9
+			},
+
+			{
+				"name": "Bulgogi",
+				"desc": "Thinly sliced ribeye beef marinated in a mild soy sauce, and topped with sesame seeds and and scallions, served with rice and miso soup.",
+				"price": 9
+			},
+
+			{
+				"name": "Kimchee Noodles vegetarian",
+				"desc": "White wheat noodles tossed in a lite kimchee, sesame sauce and topped with scallions, served with miso soup.",
+				"price": 8
+			},
+
+			{
+				"name": "Fried Soy Sesame Tofu",
+				"desc": "this item is topped with bonita flakes -- not vegetarian Fried tofu slices topped with a tangy soy-sesame sauce, bonita flakes, and sesame seeds, served with rice, and miso soup.",
+				"price": 9
+			}, {
+				"name": "Chicken Teriyaki",
+				"desc": "Grilled chicken with teriyaki sauce, served with rice, salad, and miso soup.",
+				"price": 9
+			},
+
+			{
+				"name": "Beef Teriyaki",
+				"desc": "Grilled beef with teriyaki sauce, served with rice, salad, and miso soup.",
+				"price": 9
+			},
+
+			{
+				"name": "Salmon Teriyaki",
+				"desc": "Grilled salmon with teriyaki sauce, served with rice, salad, and miso soup.",
+				"price": 10
+			},
+
+			{
+				"name": "Naeng myeon",
+				"desc": "Traditional Korean cold noodle dish with carrots ,cucumber , egg and beef",
+				"price": 8
+			},
+
+			{
+				"name": "Korean seaweed soup miyegook",
+				"desc": "",
+				"price": 5
+			},
+
+			{
+				"name": "Hae deop bap",
+				"desc": "sashimi over rice",
+				"price": 8.5
+			},
+
+			{
+				"name": "Pork (Dah ji) bulgogi",
+				"desc": "spicy pork fried",
+				"price": 9
+			},
+
+			{
+				"name": "Kim chee fried rice",
+				"desc": "kim chee and rice",
+				"price": 8
+			},
+
+			{
+				"name": "Chop chea",
+				"desc": "clear noodles",
+				"price": 8
+			},
+
+			{
+				"name": "Gim bop (1 roll)",
+				"desc": "rice in seaweed rolls, beef, carrots , pickled radish, egg, spinach,sesame seed oil and sesame",
+				"price": "6+"
+			},
+
+			{
+				"name": "Korean Rice Cake Soup (DuK Gun)",
+				"desc": "Healthy",
+				"price": 6
+			},
+
+			{
+				"name": "Korean Seaweed Soup (Miyeoguk)",
+				"desc": "Heathly",
+				"price": 6
+			}
+		]
+	}, {
+		"taco": [{
+				"name": "BBQ Beef (2)",
+				"desc": "Grill beef, korean cabbage cole slaw, cilantro, and toasted sesame seeds.",
+				"price": 5
+			},
+
+			{
+				"name": "BBQ Pork (2)",
+				"desc": "Grilled spicy pork, korean cabbage cole slaw, cilantro, and toasted sesame seeds.",
+				"price": 5
+			},
+
+			{
+				"name": "BBQ Chicken (2)",
+				"desc": "Grilled spicy chicken, korean cabbage cole slaw, cilantro, and toasted sesame seeds.",
+				"price": 5
+			}
+		]
+	}, {
+		"combo": [{
+				"name": "Sushi Ume",
+				"desc": "5 pieces sushi, mini Godzilla maki",
+				"price": 11
+			},
+
+			{
+				"name": "Sushi Matsu",
+				"desc": "7 pieces sushi, mini Godzilla maki",
+				"price": 14
+			},
+
+			{
+				"name": "Sashimi Ume",
+				"desc": "14 pieces sashimi",
+				"price": 15
+			},
+
+			{
+				"name": "Sashimi Matsu",
+				"desc": "18 pieces sashimi",
+				"price": 22
+			},
+
+			{
+				"name": "Chirachi",
+				"desc": "12 pieces sashimi served on rice",
+				"price": 15
+			}
+		]
+	}, {
+		"alacarte": [{
+				"name": "Escolar A La Carte",
+				"desc": "Super white tuna.",
+				"price": 5
+			},
+
+			{
+				"name": "Maguro A La Carte",
+				"desc": "Tuna.",
+				"price": 4
+			},
+
+			{
+				"name": "Sake A La Carte",
+				"desc": "Fresh salmon.",
+				"price": 4
+			},
+
+			{
+				"name": "Ika A La Carte",
+				"desc": "Squid.",
+				"price": 4
+			},
+
+			{
+				"name": "Suzuki A La Carte",
+				"desc": "Sea Bass.",
+				"price": 4
+			},
+
+			{
+				"name": "Smoked Salmon A La Carte",
+				"desc": "Wood smoked salmon.",
+				"price": 4
+			},
+
+			{
+				"name": "Ama-Ebi A La Carte",
+				"desc": "Sweet shrimp.",
+				"price": 5
+			},
+
+			{
+				"name": "Hamachi A La Carte",
+				"desc": "Yellow tail.",
+				"price": 4
+			},
+
+			{
+				"name": "Unagi A La Carte",
+				"desc": "Fresh water eel.",
+				"price": 5
+			},
+
+			{
+				"name": "Ebi A La Carte",
+				"desc": "Cooked shrimp.",
+				"price": 4
+			},
+
+			{
+				"name": "Tako A La Carte",
+				"desc": "Octopus.",
+				"price": 5
+			},
+
+			{
+				"name": "Ikura A La Carte",
+				"desc": "Salmon roe.",
+				"price": 5
+			},
+
+			{
+				"name": "Hotategai A La Carte",
+				"desc": "Scallop.",
+				"price": 5
+			},
+
+			{
+				"name": "Tamago A La Carte",
+				"desc": "Sweet egg.",
+				"price": 4
+			},
+
+			{
+				"name": "Tobiko A La Carte",
+				"desc": "Flying fish roe (black, red, green).",
+				"price": 4
+			},
+
+			{
+				"name": "Masago",
+				"desc": "Smelt roe.",
+				"price": 4
+			}
+		]
+	}, {
+		"signature": [{
+				"name": "Caramel Crunch",
+				"desc": "Salmon, lava sauce, crunchy rice, deep fried and topped with tobiko, scallions, eel sauce.",
+				"price": 9
+			},
+
+			{
+				"name": "B L T (5pcs)",
+				"desc": "Bacon tempura, lettuce, tomato, masago mayo and unagi sauce.",
+				"price": 9
+			},
+
+			{
+				"name": "Rock Around The Clock (5pcs)",
+				"desc": "Eel, smoke salmon, spicy tuna, cream cheese, avocado, deep fried with spicy mayo, eel sauce, scallions.",
+				"price": 9
+			},
+
+			{
+				"name": "Leaving On The Jet Plane (5pcs)",
+				"desc": "White fish tempura, avocado, fried shallot, cucumber on top ama ebi torched, ponzu, spicy mayo and unagi sauce.",
+				"price": 9
+			},
+
+			{
+				"name": "Crispy Spicy Scallop (8pcs)",
+				"desc": "Spicy scallops, avocado, tempura flakes, scallion drops, spicy mayo, and unagi sauce.",
+				"price": 9
+			},
+
+			{
+				"name": "Rolling Stone (5pcs)",
+				"desc": "Tempura asparagus, spicy tuna, spicy shrimp, tempura flake, black tobiko, and unagi sauce.",
+				"price": 9
+			},
+
+			{
+				"name": "Crunchy Eel (8pcs)",
+				"desc": "Unagi, cream cheese, avocado and tempura flakes, and unagi sauce.",
+				"price": 9
+			},
+
+			{
+				"name": "Grand Father Maki (8pcs)",
+				"desc": "Tempura, jalapeno, cucumber top with seared spicy tuna, unagi sauce, and spring kaiware.",
+				"price": 9
+			},
+
+			{
+				"name": "Amigos (8pcs)",
+				"desc": "Spicy shrimp, spicy octopus, spicy seared scallop, topped with wasabi mayo, unagi sauce.",
+				"price": 9
+			},
+
+			{
+				"name": "Mini Godzilla (5pcs)",
+				"desc": "Tempura shrimp, avocado, cucumber, tobiko, cream cheese, kaiware, chili sauce, tempura flakes, spicy mayo, unagi sauce, wasabi mayo.",
+				"price": 9
+			},
+
+			{
+				"name": "Mexicano (5pcs)",
+				"desc": "Salmon, white fish, jalapeno, cilantro, green onion, avocado, mixed greens, kaiware, Topped with sweet miso sauce",
+				"price": 9
+			},
+
+			{
+				"name": "Volcano (5pcs)",
+				"desc": "Escolar, avocado, jalapeno, sriracha, topped with crab meat hot volcano sauce.",
+				"price": 9
+			},
+
+			{
+				"name": "Crab Moon (5pcs)",
+				"desc": "soft shell crab tempura, cucumber, avocado, green onion, mixed greens, topped with spicy seared scallop, wasabi tobiko, tempura flakes, and unagi sauce",
+				"price": 9
+			},
+
+			{
+				"name": "Tokyo Born (8pcs)",
+				"desc": "Smoked salmon, jalapeno, avocado, cilantro, asparagus and scallions topped with escolar, spicy mayo, and chili",
+				"price": 9
+			},
+
+			{
+				"name": "Salmon Monster (8pcs)",
+				"desc": "Smoke salmon skin, cucumber, avocado, cilantro, sriracha, topped with seared salmon, spicy mayo, ponzu sauce, black tobiko, and scallions",
+				"price": 9
+			}
+
+		]
+	}, {
+		"traditional": [
+
+			{
+				"name": "A.A.C. Maki",
+				"desc": "Asparagus, avocado, cucumber.",
+				"price": 5
+			},
+
+			{
+				"name": "Avocado Maki",
+				"desc": "Avocado.",
+				"price": 4
+			},
+
+			{
+				"name": "California Maki",
+				"desc": "Imitation crab, avocado, cucumber.",
+				"price": 6
+			},
+
+			{
+				"name": "Spicy Tuna Maki Classic Maki",
+				"desc": "Ground tuna, chili sauce and masago mayo.",
+				"price": 6
+			},
+
+			{
+				"name": "Spider Maki",
+				"desc": "Soft shell crab tempura, masago mayo, cucumber, avocado, green onion, and unagi sauce",
+				"price": 8
+			},
+
+			{
+				"name": "Philly Maki",
+				"desc": "Smoke salmon, cream cheese, avocado",
+				"price": 7
+			},
+
+			{
+				"name": "Negihamachi Maki",
+				"desc": "Yellow tail and scallions.",
+				"price": 7
+			},
+
+			{
+				"name": "Escolar Kyu Maki",
+				"desc": "Super white tuna and cucumber, avocado, jalapeno",
+				"price": 7
+			},
+
+			{
+				"name": "Hamachi Kyu Maki",
+				"desc": "Yellow tail, cucumber, avocado, jalapeno",
+				"price": 7
+			},
+
+			{
+				"name": "Tekka Tuna Maki",
+				"desc": "Tekka Kyu tuna and cucumber, avocado, jalapeno",
+				"price": 7
+			},
+
+			{
+				"name": "Una Kyu Maki",
+				"desc": "Fresh water eel and cucumber, avocado, jalapeno",
+				"price": 8
+			},
+
+			{
+				"name": "Kappa Maki",
+				"desc": "Cucumber",
+				"price": 4
+			},
+
+			{
+				"name": "Sweet Potato Maki",
+				"desc": "Sweet potato tempura, cream cheese, and unagi sauce",
+				"price": 6
+			},
+
+			{
+				"name": "Futo Maki",
+				"desc": "Imitation crab, cucumber, avocado, kampyo, shitaki, tamago",
+				"price": 7
+			},
+
+			{
+				"name": "Ebi Tempura Maki",
+				"desc": "Tempura shrimp, masago mayo, cucumber, avocado, unagi sauce",
+				"price": 7
+			},
+
+			{
+				"name": "Spicy Shrimp",
+				"desc": "Shrimp, masago mayo, scallions, cucumber, chili oil, mayo",
+				"price": 7
+			},
+
+			{
+				"name": "Spicy Octopus",
+				"desc": "Octopus, masago mayo, cucumber, scallions, chili oil, mayo",
+				"price": 7
+			},
+
+			{
+				"name": "Shiitake Maki",
+				"desc": "Marinated mushroom",
+				"price": 4
+			},
+
+			{
+				"name": "Sake Kyu Maki",
+				"desc": "fresh salmon and cucumber,avocado,jalapeno",
+				"price": 7
+			},
+
+			{
+				"name": "Dragon",
+				"desc": "Tempura shrimp ,masago mayo, topped with unagi, and avocado, unagi sauce",
+				"price": 8
+			},
+
+			{
+				"name": "Rainbow",
+				"desc": "Yellow tail,unagi, cucumber, topped with tuna, avocado, salmon, and white fish",
+				"price": 9
+			}
+		]
+	}],
+
+	"food": [
+		{"name": "Dduk Guk","desc":"Korean comfort-food soup of rice cake dumplings simmered in a light fish stock"},
+		{"name": "Dak Gan Gang","desc":"Spicy, tangy, Korean-style chicken wings that bring just the right amount of heat"},
+		{"name": "Gim Bop","desc":"Traditional Korean rice rolls tightly bound with eggs, meat, and vegetables"},
+		{"name": "Hoe deop Bap","desc":"A light and healthy bowl of rice and sashimi drizzled with Korean hot sauce"},
+		{"name": "Crispy Spicy Scallop","desc":"One of our signature rolls that our sushi chef carefully crafts to offer both deep texture and flavor"},
+		{"name": "Ramen","desc":"Hot bowl of wheat noodles simmered in a rich broth and dressed with fresh Korean ingredients"},
+		{"name": "Salmon Monster","desc":"One of our signature rolls made with fresh ingredients and plated to serve the eyes before the pallete"},
+		{"name": "Gyoza","desc":"Pork and cabbage dumplings pan fried and served with a tangy dipping sauce"},
+		{"name": "Soft Shell Crab","desc":"Soft Shell Crab deep fried in tempura batter and topped with our own special spicy mayo"},
+		{"name": "Bi Bim Bop","desc":"Our signature rice bowl topped with fresh ingrediants and an egg to bind all the unique ingredients"},
+		{"name": "Kalbi","desc":"Our beloved Korean short ribs marinated in a sweet and tangy soy sauces and grilled to seal in the deep rich flavors"},
+		{"name": "Ojingo Bokkeum","desc":"Calamari tossed with peppers and scallions and sauteed in a spicy Korean chili sauce"}
+	]
+}

@@ -1,0 +1,185 @@
+h1{
+	display:none;
+}
+
+.black{
+	color:#111;
+}
+
+div.twitter-wrapper{
+	float:right;
+	position: relative;
+	width:114px;
+ 	height:50px;
+}
+
+ .twitter-wrapper a.twitter-link{
+ 	width:114px;
+ 	height:50px;
+ 	display: block;
+ 	background: url(../imgs/sprite/twitter-link-sprite.png) no-repeat 0 0 #0a273a;
+ }
+
+ .twitter-wrapper a.twitter-link:hover,
+ .twitter-wrapper a.twitter-link.sho{
+  	background: url(../imgs/sprite/twitter-link-sprite.png) no-repeat 0px -50px #2fabff;
+ }
+ 
+div.tweet-wrapper{
+	width:260px;
+	display: block;
+	height:1px;
+	min-height: 1px;
+	background-color: #fff;
+	position: absolute;
+	color:#111;
+	border-top:solid 8px #2cabf6;
+	border-bottom:solid 5px #07d0a7;
+	z-index: 1001;
+	right:30px;
+	bottom:90px;
+	opacity: 0;
+	overflow: hidden;
+	transition: all 1s ease;
+}
+
+div.tweet-wrapper.sho{
+	height:auto;
+	min-height: 280px;
+	overflow: visible;
+	opacity: .95;
+	transition: all 1s ease;
+}
+
+div.tweet-wrapper .tweet-pointer{
+	display: block;
+	border-left: 40px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 30px solid #07d0a7;
+	position: absolute;
+	bottom:-30px;
+	right:30px;
+}
+
+
+div.tweet-header{
+	height:25px;
+	position: absolute;
+	width:100%;
+	top:0;
+	left:0;
+	padding:2px 0px 0px 8px;
+	font:bold 14px verdana;
+	font-weight:bolder;
+	background-color: #dcdcdc;
+}
+
+	.tweet-header .link-follow-twitter{
+		display: block;
+		width:55px;
+		height:18px;
+		position: absolute;
+		right:7px;
+		top:4px;
+		background: url(../imgs/btn-follow-twitter.png) no-repeat 0 0;
+	}
+
+div.tweet-wrap-inner{
+	width:100%;
+	height:90%;
+	overflow: hidden;
+	top:25px;
+	left:0;
+	position: absolute;
+	overflow: hidden;
+	overflow-y:auto;
+}
+
+div.loading-wrap{
+	width:100%;
+	height:100%;
+	margin:auto;
+	margin-top:24px;
+	text-align: center;
+	vertical-align: middle;
+}
+div.loading-wrap img{
+	width:32px;
+	height:32px;
+	border:0px;
+	margin:59px;
+}
+
+div.tweet-wrap{
+	height:80px;
+	width:100%;
+	border-bottom:dotted 1px #ccc;
+}
+
+div.tweet-date{
+	width:19%;
+	text-align: left;
+	
+	height:80px;
+	float:right;
+}
+div.tweet-content{
+	width:80%;
+	
+	height:80px;
+	float:left;
+	padding:4%;
+}
+	.tweet-content p{
+	font:normal 12px arial;
+	line-height: 130%;
+	margin-left: 4px;
+	}
+	.tweet-content p span.tweet-icon{
+		float:left;
+		width:46px;
+		height:46px;
+		display: block;
+		margin-right:8px;
+		margin-left:-2px;
+		margin-top: -6px;
+		border-radius:6px;
+		background-color: #fff;
+		overflow: hidden;
+		
+		background-image: url(../imgs/kyu-logo.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.tweet-content p.tweet-txt:first-line{
+		color:#990000;
+		font:bold 11px arial;
+		padding-bottom:10px;
+	}
+
+	.tweet-date p.date-tweet{
+		font:normal 8pt arial;
+		line-height: 150%;
+		margin-top: 21px;
+		color:#999;
+		padding-right:5%;
+	}
+	.tweet-date p.date-tweet:first-line{
+		color:#990000;
+	}
+
+/* mobile start */
+@media only screen and (max-width: 480px) {
+	div.row div.col.col-wide33 div.twitter-wrapper,
+	div.row div.col.col-wide33 div.twitter-wrapper a.twitter-link{
+	    width: 100%;
+		height:50px;
+	}
+
+	div.row div.col.col-wide33 div.tweet-wrapper.sho{
+		bottom:75px;
+		right:10px;
+	}
+}
+/* mobile end */
+
